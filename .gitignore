@@ -1,3 +1,29 @@
-**/.env
-**/.env.*
-!**/.env.example
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Ignored default folder with query files
+/queries/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+.env
+.env.*
+!.env.example
+/node_modules/
+/dist/
+/build
+/.vscode/
+.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+/.idea/
+/target
+*.class
+*.war
+*.ear
+*.iml
