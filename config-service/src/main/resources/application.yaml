@@ -5,7 +5,7 @@ spring:
     config.server.git:
       uri: https://github.com/likhithasureshh/lovable-config-server.git
       username: likhithasureshh
-      password: REDACTED
+      password: ${GIT_PASSWORD}
       default-label: main
 server.port: 8888
 
